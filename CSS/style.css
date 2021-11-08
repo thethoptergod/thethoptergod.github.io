@@ -53,7 +53,7 @@
         background-color: lightblue;
         margin 0 auto;
       }
-      #Title{
+      .title{
         color: maroon;
         font-weight:lighter;
         font-style:italic;
@@ -62,7 +62,7 @@
       #secret{
         background-color: lightgray
       }
-      #guitartable{
+      .guitartable{
         text-align: center;
       }
       #algpic{
