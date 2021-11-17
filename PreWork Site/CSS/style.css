@@ -1,0 +1,138 @@
+<style type="text/css">
+      h2{
+        color: maroon;
+        font-weight:lighter;
+        font-style:italic;
+        text-align:center;
+      }
+      h3{
+        color: white;
+        text-align:center;
+      }
+      p{
+        font-size: 12pt
+      }
+      ul{
+        text-align: center;
+        list-style: none;
+
+      }
+      img{
+        height: 555px;
+        width: 396px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      p{
+        text-align: center;
+      }
+      h4{
+        font-weight: lighter;
+        font-size: 12pt;
+        text-align: center;
+      }
+      #guitarpic{
+        height: 555px;
+        width: 396px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #songform{
+        text-align: center;
+      }
+      #songsubmit{
+        text-align: center;
+      }
+      #main{
+        background-color: lightblue;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      #main2{
+        background-color: lightblue;
+        margin 0 auto;
+      }
+      .title{
+        color: maroon;
+        font-weight:lighter;
+        font-style:italic;
+        text-align:center;
+      }
+      #secret{
+        background-color: lightgray
+      }
+      .guitartable{
+        text-align: center;
+      }
+      #algpic{
+        height: 555px;
+        width: 396px;
+      }
+      #sg3pic{
+        height: 555px;
+        width: 396px;
+      }
+      #t60pic{
+        height: 555px;
+        width: 396px;
+      }
+      #ricpic{
+        height: 555px;
+        width: 396px;
+      }
+      #lagpic{
+        height: 555px;
+        width: 396px;
+      }
+      #solpic{
+        height: 555px;
+        width: 396px;
+      }
+      #tacpic{
+        height: 555px;
+        width: 396px;}
+      #luthier{
+        text-align: center;
+        width: 100%;
+        border: none;
+      }
+      #stratpic1{
+        height: 555px;
+        width: 396px;
+      }
+      #stratpic1:hover{
+        opacity: 0.0;
+
+      }
+      #stratpic2{
+        height: 555px;
+        width: 396px;
+      }
+      #stratpic2:hover{
+        opacity: 0.0;
+
+      }
+      #pic335{
+        height: 555px;
+        width: 396px;
+      }
+      #pic335:hover{
+        opacity: 0.0;
+      }
+      .luthrow{
+        width: 449.66px;
+        height: 555px;
+      }
+      .bottomimg{
+        position: relative;
+      }
+      .topimg{
+        position: relative;
+        top: -555px;
+        right: 100px:
+      }
+      #stratpic3{
+        height: 555px;
+        width: 396px;
+      }
