@@ -1,0 +1,23 @@
+.homepage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#guitar{
+    background-color: turquoise;
+}
+#personal{
+    background-color: wheat;
+}
+#personal:hover{
+   background-color: turquoise;
+}
+#guitar:hover{
+    background-color: wheat;
+}
+
+
+
+
