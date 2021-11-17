@@ -9,8 +9,11 @@
     text-align:center;
   }
 .navbar{
-    text-align: center;
-    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 .table{
     display: flex;
