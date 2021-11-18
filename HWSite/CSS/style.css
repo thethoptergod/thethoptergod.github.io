@@ -37,8 +37,8 @@
   text-align: center;
 }
 .colimg{
-  width: 264px;
-  height: 370px;
+  max-width: 264px;
+  max-height: 370px;
   
 }
 .colpic{
