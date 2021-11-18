@@ -18,29 +18,31 @@
 .table{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: space-around;
     width: 100%;
     height: 100%;
     flex-wrap: wrap; 
-    align-content: center;
+    align-content: space-around;
 }
 .proimage{
   width: 396px;
   height: 555px;
-}
-#pro1{
-  margin: auto;
-}
-#pro2{
-  margin: auto;
-}
-#pro3{
-  margin: auto;
-}
-#pro4{
-  margin: auto;
+
 }
 .protext{
+  text-align: center;
+}
+.coltext{
+  text-align: center;
+}
+.colimg{
+  width: 264px;
+  height: 370px;
+  
+}
+.colpic{
+  width: 300px;
+  height: 450px;
   text-align: center;
 }
