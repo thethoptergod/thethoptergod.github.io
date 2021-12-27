@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html>
-      <head>
-            <title>Landing</title>
-            <link rel="stylesheet" type="text/css" href="style.css">
-      </head>
-<div class="homepage">
-      <div id="guitaroutline">
-            <a href="https://thethoptergod.github.io/HWSite/index.html"><button id="guitar">Guitar Site</button></a>
-      </div>
-      <div id="personaloutline">
-            <a href="https://thethoptergod.github.io/PreWorkSite/index.html"><button id="personal">Personal Site</button></a>
-
-      </div>
-</div>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://reddingguitars.com/MOD+1+Project/style.css" rel="stylesheet" type="text/css">
+    <title>Progressive Rock</title>
+</head>
+<body>
+    <button onclick="show('crimsonplayer')">Crimson Sample</button>
+    <div id="crimsonplayer" style="visibility: hidden">
+    <iframe class="songs" src="https://open.spotify.com/embed/track/5L7VBYoosmkmiiDlzumdCe?utm_source=generator" width="400" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    </div>
+<script>
+    function show (id){
+        document.getElementById(id).style.visibility = "visible"
+    }
+</script>
+</body>
 </html>
