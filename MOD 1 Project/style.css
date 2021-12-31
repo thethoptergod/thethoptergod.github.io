@@ -7,16 +7,24 @@
     flex-wrap: wrap;
 }
 #home{
-    padding: 14px 70px;
+    width: 300px;
+    height: 75px;
+    border-radius: 25px;
 }
 #england{
-    padding: 14px 70px;
+    width: 300px;
+    height: 75px;
+    border-radius: 25px;
 }
 #namerica{
-    padding: 14px 70px;
+    width: 300px;
+    height: 75px;
+    border-radius: 25px;
 }
 #japan{
-    padding: 14px 70px;
+    width: 300px;
+    height: 75px;
+    border-radius: 25px;
 }
 .songs{
     list-style-type: none;
