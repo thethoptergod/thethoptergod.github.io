@@ -75,3 +75,32 @@
 body{
     background-color: black;
 }
+#albumtitle{
+    font-size: large;
+    color: lightgray;
+}
+#submit{
+    width: 300px;
+    height: 70px;
+}
+#form{
+    display: flex;
+    justify-content: center;
+}
+label{
+    font-size: large;
+    color: lightgray;
+}
+#main{
+    display: flex;
+    justify-content: center;
+}
+#para{
+    font-size: large;
+    color: lightgray;
+    max-width: 40%;
+}
+#stuff{
+    display: flex;
+    justify-content: center;
+}
