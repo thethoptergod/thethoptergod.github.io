@@ -55,6 +55,21 @@
 #content5{
     background-color: rgb(55,37,49);
 }
+#content6{
+    background-color: rgb(152, 37 , 50);
+}
+#content7{
+    background-color: rgb(57, 45, 108);
+}
+#content8{
+    background-color:rgb(77, 96, 112) ;
+}
+#content9{
+    background-color: rgb(70,89, 121);
+}
+#content10{
+    background-color: rgb(44, 31, 31);
+}
 #content11{
     background-color: rgb(124,43,31);
 }
@@ -64,6 +79,9 @@
 #content13{
     background-color: rgb(93, 31, 68);
 }
+#content14{
+    background-color: rgb(75, 31, 25);
+}
 .title{
     font-size: larger;
     color: lightgray;
@@ -71,6 +89,7 @@
 .text{
     font-size: large;
     color: lightgray;
+    text-shadow: 2px 2px 3px black;
 }
 body{
     background-color: black;
@@ -103,4 +122,9 @@ label{
 #stuff{
     display: flex;
     justify-content: center;
+}
+@media (max-width: 500px){
+    .content{
+        justify-items: center;
+    }
 }
