@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Progressive Rock</title>
+</head>
+<body>
+<div>
+    <ul class=navbar>
+        <li><a href=https://thethoptergod.github.io/MOD%201%20Project/index.html><button id=home >Home</button></a></li>
+        <li><a href=https://thethoptergod.github.io/MOD%201%20Project/england.html><button id=england>In England</button></a></li>
+        <li><a href="https://thethoptergod.github.io/MOD%201%20Project/namerica.html"><button id=namerica>In North America</button></a></li>
+        <li><a href="https://thethoptergod.github.io/MOD%201%20Project/japan.html"><button id=japan>In Japan</button></a></li>
+    </ul>
+</div>
+<div id=main><h2 class=title>Progressive Rock and It's History, Poorly Told by Me</h2></div>
+<div class=content id=stuff>
+    <p id=para>
+        Progressive Rock. A wide and varied genre, almost imppossible to explain and catagorize. On the following pages, I will attempt to explain it all, but that is unlikley. If you want
+        more info, I reccomend checking out <a href=http://www.progarchives.com>progarchives.com</a>. Start in England, then move over.
+    </p>
+</div>
+<div id='form'>
+    <form>
+        <label for='recc1'>Reccomend me an artist and I'll send you an album to listen to!</label><br>
+        <input type=text id='recc1' name='recc1' size="59" placeholder="Album Name/Artist"><br>
+    </form>
+    <button id=sumbit>Submit</button>
+</div>
+</body>
+<script>
+    const imgdiv = document.getElementById('form')
+    const gifs = ["9zZlVISU1yDIqCvsKF","1ppmF66awrFlqMxyDm","RezZkqUFtOM9UJAfdV","U15vx0YQMMcCV8CQVO","ehy3sB0uJkoRnetwQk","3oEjHC6xpraXjgIh32","KayV0D0LvsoceMSiFT",
+    "STrsGkrHl1uNneTzKT","TKLMUe2KzFdqnvoB9X","3xEhyO44jFWeTe3di8","3rKFa4ZXBGqg9xND44"]
+    function getRandom(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min) + min);
+    }
+    let random = getRandom(0,11);
+    const url = `https://api.giphy.com/v1/gifs/${gifs[random]}?api_key=y9B5LGLcdqushUca0sun7PK06sicsQan`
+    
+    document.getElementById('sumbit').addEventListener('click', ()=> {
+    console.log(url)
+    document.getElementById('form').innerHTML = ''
+    fetch(url)
+    .then((res)=> res.json())
+    .then((content)=>{
+        let gif = content.data.images.downsized.url;
+        console.log(content.data)
+        console.log('META', content.meta)
+
+        imgdiv.innerHTML = `<div><span id=albumtitle>How About You Check Out This Album?</span><div id=albumpic><img src=${gif}></div>`
+    })
+    .catch((error)=>{
+        console.log(error)
+    })
+})
+</script>
+</html>
