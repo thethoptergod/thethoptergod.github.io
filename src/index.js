@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import NavBar from './components/NavBar';
 import Title from './components/Title';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import HBLBB from "./routes/HBLBB";
 import TDRS from "./routes/TDRS";
 import BBFW from "./routes/BBFW";
@@ -38,6 +38,7 @@ ReactDOM.render(
       <Route path="G15S" element={<G15S lat="57.455152" long="-3.128712" pass="key=AIzaSyATBJXGGm80JZoJt7TORuWcxFCN_MNi2k4" id="12158" />} />
       <Route path="STTK" element={<STTK lat="34.892574" long="135.674487" pass="key=AIzaSyATBJXGGm80JZoJt7TORuWcxFCN_MNi2k4" />} />
       <Route path="contact" element={<Contact />} />
+      <Route path="/" element={<Navigate replace to="/home" />} />
       </Route>
     </Routes>
   </BrowserRouter>,
